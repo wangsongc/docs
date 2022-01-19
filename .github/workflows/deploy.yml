@@ -26,6 +26,7 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
+          repo: wangsongc/wangsongc.github.io
           target_branch: gh-pages
           build_dir: docs/.vuepress/dist
           fqdn: originjs.org
